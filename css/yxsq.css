@@ -1,0 +1,104 @@
+.w{
+    width: 1200px;
+    margin: 0px auto;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.banner {
+    width: 100%;
+    height: 670px;
+    background: url(../upload/community_banner.jpg) no-repeat center 0;
+    background-size: 100% 740px;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.txtbox {
+    width: 421px;
+    height: 170px;
+    margin: 290px 0 0 250px;
+    color: #fff;
+}
+
+.txtbox h4{
+    font-size: 28px;
+    line-height: 90px;
+}
+.txtbox p{
+    font-size: 18px;
+    line-height: 30px;
+}
+.bigbox {
+    margin-top: 60px;
+}
+.bigbox .listz{
+    width: 474px;
+    height: 170px;
+    border-top: 1px solid #ccc;
+    /* border-bottom: 1px solid #ccc; */
+    padding-left: 20px;
+    position: relative;
+}
+.bigbox .listz::after{
+    content: '';
+    display: block;
+    width: 495px;
+    height: 0px;
+    background-color: #83bf2b;
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    z-index: -1;
+    transition: all .5s;
+}
+.bigbox .listz:hover::after{
+    height: 170px;
+}
+
+.bigbox .listz h5{
+    margin-top: 30px;
+    font-size: 20px;
+    color: #333;
+    font-weight: 500;
+    line-height: 33px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.bigbox .listz h5 span{
+    float: left;
+    display: block;
+    width: 33px;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #83bf2b;
+    margin-right: 5px;
+    transition: all .5s;
+}
+.bigbox .listz:hover h5,.bigbox .listz:hover p, .bigbox .listz:hover i{
+    color: #fff;
+    transition: all .5s;
+}
+.bigbox .listz:hover h5 span{
+    background-color:#fff;
+    color: #83bf2b;
+}
+.bigbox .listz p{
+    margin-top: 14px;
+    color: #727272;
+    font-size: 15px;
+    height: 54px
+}
+.bigbox .listz i{
+    font-style: normal;
+    color: #c5c5c5;
+    font-size: 12px;
+    line-height: 6px;
+}

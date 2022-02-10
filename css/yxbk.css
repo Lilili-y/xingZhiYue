@@ -1,0 +1,104 @@
+.w{
+    width: 1180px;
+    margin: 0 auto;
+}
+.banner {
+    width: 100%;
+    height: 740px;
+    background: url(../upload/baike_2019311518354923.jpg) no-repeat center 0;
+    background-size: 100% 740px;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.txtbox {
+    width: 421px;
+    height: 170px;
+
+    margin: 330px 0 0 300px;
+}
+
+.txtbox .p {
+    width: 104px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    background-color: #f56247;
+}
+
+.txtbox p {
+    font-size: 23px;
+    color: #fff;
+    margin: 22px 0 30px 0;
+}
+
+.txtbox span {
+    font-size: 14px;
+    color: #fff;
+}
+
+.nve {
+    height: 78px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+    
+}
+.nve ul li{
+    float: left;
+    margin: 30px 10px 4px;
+    position: relative;
+    left: -30px;
+
+}
+.nve ul li a{
+    color:#333;
+    padding: 10px 20px 10px;
+    transition: all 0.3s;
+    background-color: 0;
+}
+.nve ul li a:hover{
+    color: white;
+    background-color: yellowgreen;
+}
+.yxbk{
+    height: 220px;
+    padding: 0 10px;
+    background-color: #fff;
+    transition: all 0.3s;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+}
+.yxbk:last-child{
+    border-bottom:none
+}
+.yxbk .bt{
+    height: 70px;
+    line-height: 70px;
+    font-size: 18px;
+}
+.yxbk .box .pic{
+    float: left;
+    overflow: hidden;
+    width: 230px;
+    height: 120px;
+}
+.yxbk .box .pic img{
+    width: 100%;
+}
+.yxbk .box p{
+    float: left;
+    margin: 5px 0 0 35px;
+    font-size: 12px;
+}
+.yxbk:hover{
+    transform: scale(1.005);
+    box-shadow: 2px 3px 4px 4px #333;
+}
+.yxbk:hover .bt{
+    color: yellowgreen;
+}
+.last_yxbk {
+    margin-bottom: 30px;
+}
